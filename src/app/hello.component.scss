@@ -1,0 +1,108 @@
+.alert-wrapper {
+  overflow: hidden;
+  border-radius: 13px !important;
+  background-color: #f8f8f8 !important;
+  box-shadow: none !important;
+}
+.button-md{
+  font-weight: normal;
+  height: 3rem;
+  border-radius: 8px;
+  text-transform:none ; //uppercase
+  margin-left: 20px;
+}
+.mrl20{
+  margin-left: 20px;
+}
+.alert-md{
+  .alert-checkbox-group{
+    overflow: scroll;
+    max-height: 200px;
+    border-bottom: none;
+  }
+  .alert-checkbox-icon {
+    margin: 10px 6px 10px 16px;
+    width: 21px;
+    height: 21px;
+    border-width: .55px;
+    border-style: solid;
+    border-radius: 4px;
+  }
+  [aria-checked=true]{
+    .alert-checkbox-inner {
+      position: absolute;
+      top: 2px;
+      left: 6px;
+      width: 7px;
+      height: 11px;
+      border-width: 0 .55px .55px 0;
+      border-style: solid;
+      border-color: #fff;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+  }
+  .alert-button-group{
+    padding: 0;
+    // display: flex; */
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* word-wrap: break-word; */
+    text-rendering: optimizeLegibility;
+  }
+  .alert-button {
+    overflow: hidden;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    margin: 0;
+    min-width: 50%;
+    height: 44px;
+    border-top: .55px solid #dbdbdf;
+    border-right: .55px solid #dbdbdf;
+    border-radius: 0;
+    font-size: 17px;
+    color: #387ef5;
+    background-color: transparent;
+    .button-inner{
+      justify-content: center;
+    }
+  }
+}
+.text-input-md{
+  width: 200px;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 5px;
+}
+.show-page {
+  .tabbar{
+    opacity: 1;
+    background: #747f98;
+  }
+  .tab-button{
+    max-width: 240px;
+    min-height: 49px;
+    padding: 0;
+  }
+  
+  .tab-button-text{
+    margin: 0;
+    color: #fff;
+  }
+  .tab-button-icon {
+    font-size: 2rem;
+    color: #fff;
+  }
+}
+.enable-hover {
+  a:hover{ 
+    opacity: 1;
+    background: #3e485d; 
+  }
+  a:hover{
+    .tab-button-text,.tab-button-icon{
+      color: #387ef5;
+    }
+  }
+  
+}

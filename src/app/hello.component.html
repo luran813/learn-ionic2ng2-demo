@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle icon-only>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Hello Ionic</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="action-sheets-basic-page">
+  <h4 class="mrl20">Welcome to your first Ionic app!</h4>
+  <button ion-button color="secondary" (click)="openAction()">
+    Show Action Sheet
+  </button>
+  <button ion-button outline=true (click)="openAlert()">
+    Show Alert
+  </button>
+  <ion-input type="text" class="mrl20" placeholder="input" [(ngModel)]="date"></ion-input>
+  <my-dir></my-dir>
+</ion-content>
+
+  

@@ -1,0 +1,40 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+
+.action-sheet-md {
+  .action-sheet-container{
+    padding-bottom: 0px;
+    background: none;
+  }
+  .action-sheet-title {
+    text-align: center;
+  }
+  .action-sheet-button{
+    border-top: 1px solid #ddd;
+    font-size: 16px;
+    color: #387ef5;
+    .button-inner{
+      text-align: center !important;
+      display: inline-block;
+    }
+  }
+  .action-sheet-cancel{
+    font-weight: 600;
+    background: #fff;
+    border-top: none;
+  }
+  .action-sheet-group{
+    border-radius: 13px;
+    overflow: hidden;
+    background: #f9f9f9;
+    margin-bottom: 8px;
+  }
+  .action-sheet-group:last-child {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+}
+
